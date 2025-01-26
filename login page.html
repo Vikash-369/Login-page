@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login page 2.css">
+    <style>
+        .main {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h2>Login</h2>
+        <form action="/submit-login" method="post">
+            <div class="input-container container2" >
+              
+                <label for="username">Username</label>
+            
+                <input type="text" id="username" name="username" required>
+                
+            </div>
+            <div class="input-container">
+                <label for="password" class="container2">Password</label>
+                <input type="password" id="password" name="password" required >
+            
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); /* Enhanced gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+    width: 30%;
+    padding: 20px;
+    background-color: #333;
+    opacity: 0.9; /* Increase transparency */
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: slideIn 1.5s ease-in-out, fadeIn 2s ease-in-out; /* Add high-level animation */
+}
+
+h2 {
+    color: white;
+}
+
+.input-container {
+    margin: 15px 0;
+    text-align: left;
+}
+
+label {
+    color:white;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.3); /* Increase transparency */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Define the slideIn animation */
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Define the fadeIn animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
