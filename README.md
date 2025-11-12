@@ -3,20 +3,20 @@
 
 🎨 Features
 
-      Clean and modern user interface
+Clean and modern user interface
       
-      Fully responsive layout
+Fully responsive layout
       
-      Gradient background
+Gradient background
       
-      Centered login card with smooth border radius
+Centered login card with smooth border radius
       
-      Easy to integrate into any website or web app
+Easy to integrate into any website or web app
       
-      Minimal and professional color scheme
+Minimal and professional color scheme
 
 🛠️ Tech Stack
 
-      HTML5 – structure and semantics
+HTML5 – structure and semantics
       
-      CSS3 – layout, styling, and gradient design
+CSS3 – layout, styling, and gradient design
